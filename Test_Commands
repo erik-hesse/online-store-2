@@ -6,3 +6,6 @@ npm test
 
 Protractor end-to-end tests
 npm run e2e
+
+Server-side unit/integration test, client-side Jest unit test, and Protractor e2e tests
+gradlew test integrationTest && npm test && npm run e2e
