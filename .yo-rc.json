@@ -15,7 +15,7 @@
     "dtoSuffix": "DTO",
     "testFrameworks": ["protractor"],
     "pages": [],
-    "creationTimestamp": 1619188874501,
+    "creationTimestamp": 1619204377608,
     "serviceDiscoveryType": false,
     "reactive": false,
     "authenticationType": "jwt",
@@ -38,9 +38,11 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "packageFolder": "com/mycompany/store",
-    "jwtSecretKey": "NTQwNGIxYjliNDk5NGU4YzE3NTkyMTFlNzNkZTA0NzBjODE4YTkxZmMyZjAxNjJmMWZjMmEwZDliMjM3ZDA1NDY5MGNiYjdhNTA2MjU5ZThkYjljMTVlODFkODRmYmUxMjM1NjQ4OWZlNWE3ZjE3NzA1NTBmNDlmZmM5Y2NlMmE=",
+    "jwtSecretKey": "NGM5YjUzZjRlZGU4NTM3ODY4ZGU1NjgzMTA2NWNhMTBiNjYwZTU1NzAyNjkyMmZlZDk1ZDdhMDFjOWRkN2FkYzQ1M2VkYjY1NmEwZTI0MWUxOTBlMDBmYzliYzNiMGNhN2U0OWNjYjkyYTBhMjUwNzExMjE0MzdlZDk5OGJmMTc=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "zh-cn"]
+    "languages": ["en", "zh-cn"],
+    "entities": ["Product", "ProductCategory", "Customer", "ProductOrder", "OrderItem", "Invoice", "Shipment"],
+    "lastLiquibaseTimestamp": 1619205370000
   }
 }

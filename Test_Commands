@@ -1,0 +1,8 @@
+Server-side tests
+gradlew test integrationTest
+
+Client-side tests
+npm test
+
+Protractor end-to-end tests
+npm run e2e
