@@ -29,16 +29,16 @@ node {
             junit '**/build/**/TEST-*.xml'
         }
     }
-
-    stage('frontend tests') {
-        try {
-            sh "./gradlew npm_run_test -PnodeInstall --no-daemon"
-        } catch(err) {
-            throw err
-        } finally {
-            junit '**/build/test-results/TESTS-*.xml'
-        }
-    }
+/*
+*    stage('frontend tests') {
+*        try {
+*            sh "./gradlew npm_run_test -PnodeInstall --no-daemon"
+*        } catch(err) {
+*            throw err
+*        } finally {
+*///            junit '**/build/test-results/TESTS-*.xml'
+//        }
+//    }
 
     stage('packaging') {
         sh "./gradlew bootJar -x test -Pprod -PnodeInstall --no-daemon"
