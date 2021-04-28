@@ -59,6 +59,7 @@ entity Invoice{
     paymentMethod PaymentMethod required
     paymentDate Instant required
     paymentAmount BigDecimal required
+    code String required
 }
 
 enum InvoiceStatus{
